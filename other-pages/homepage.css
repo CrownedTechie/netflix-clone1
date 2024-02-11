@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    height: 100vh;
+    /* width: 10%; */
+    margin: 0 auto;
+    background-color: black;
+}
+
+header {
+    padding: 2rem;
+    background-color: #141414;
+}
+
+.highlighted-movies {
+    background-image: url('img/highlighted-movie-bg.png') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    padding-left: 3rem;
+}
+
+article {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 12rem;
+    width: 40%;
+}
+
+article > h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+article > dt {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+
+dt > p {
+    font-size: 1.3rem;
+    margin: .8rem 0;
+}
+
+dd {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+
+.button-box {
+    display: flex;
+    gap: .8rem;
+}
+
+.button-box > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .6rem;
+}
+
+.play-movie {
+    width: 20%;
+    border: none;
+    border-radius: 0.25rem;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.movie-info {
+    width: 40%;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    color: white;
+    border-radius: 0.25rem;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.popularmovies-section {
+    margin-top: 1rem;
+    color: white;
+}
+
+.popularmovies-section p {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.movie-pics {
+    display: flex;
+    overflow: hidden;
+    gap: .2rem;
+}
+
+.movie-pics > img {
+    max-width: 100%;
+    width: 256px;
+    height: 171px;
+}
+
+
+.more-movies {
+    padding-left: 3rem;
+}
+
+.category1 {
+    color: white;
+    padding-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.category-pics {
+    display: flex;
+    overflow: hidden;
+    padding-top: .8rem;
+    gap: .2rem;
+}
+
+.category-pics > img {
+    max-width: 100%;
+    width: 256px;
+    height: 171px;
+}
+
+.original {
+    display: flex;
+    overflow: hidden;
+    gap: .2rem;
+    padding-top: .8rem;
+}
+
+.original > img {
+    width: 265px;
+    height: 575px;
+}
+
+.rank-card {
+    display: flex;
+    overflow: hidden;
+    gap: .2rem;
+    padding-top: .8rem;
+}
+
+.rank-card > img {
+    width: 265px;
+    height: 205px;
+}
+
+.old-movie {
+    display: flex;
+    overflow: hidden;
+    gap: .2rem;
+    padding-top: .8rem;
+}
+
+.old-movie > img {
+    width: 245px;
+    height: 171px;
+}
+
+.letter-movie {
+    display: flex;
+    overflow: hidden;
+    gap: .2rem;
+    padding-top: .8rem;
+}
+
+.letter-movie > img {
+    width: 265px;
+    height: 171px;
+}
+
+footer {
+    padding: 8rem;
+    background-color: black;
+}
+
+.social {
+    display: flex;
+    gap: 1rem;
+}
+
+.other-links {
+    color: rgba(128, 128, 128, 1);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
